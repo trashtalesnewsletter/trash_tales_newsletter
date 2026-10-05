@@ -1,43 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
   <title>Triceps Pressdown progress</title>
-  <desc>average load per rep over time from Apr 2 to Jul 23.</desc>
+  <desc>average load per rep over time from Jun 19 to Jul 23.</desc>
   <rect width="100%" height="100%" fill="#ffffff"/>
   <text x="72" y="24" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2328">Triceps Pressdown</text>
   <text x="72" y="44" font-family="Inter, Arial, sans-serif" font-size="12" fill="#59636e">average load per rep</text>
   <line x1="72" y1="302" x2="732" y2="302" stroke="#d7dde4"/>
   <line x1="72" y1="38" x2="72" y2="302" stroke="#d7dde4"/>
   <line x1="72" y1="170.0" x2="732" y2="170.0" stroke="#eef1f5"/>
-  <text x="62" y="306.0" text-anchor="end">22.2667</text>
-<text x="62" y="174.0" text-anchor="end">32.0833</text>
-<text x="62" y="42.0" text-anchor="end">41.9</text>
-  <polyline points="72.0,276.5 97.4,231.6 122.8,198.0 148.2,164.4 173.5,164.4 198.9,130.8 224.3,164.4 249.7,130.8 275.1,164.4 300.5,164.4 325.8,97.2 351.2,164.4 376.6,97.2 402.0,164.4 427.4,63.5 452.8,164.4 478.2,63.5 503.5,164.4 528.9,164.4 554.3,63.5 579.7,164.4 605.1,164.4 630.5,63.5 655.8,164.4 681.2,63.5 706.6,164.4 732.0,63.5" fill="none" stroke="#0b57d0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-  <g fill="#0b57d0"><circle cx="72.0" cy="276.5" r="4.5"><title>Apr 2: 24.1667</title></circle>
-<circle cx="97.4" cy="231.6" r="4.5"><title>Apr 9: 27.5</title></circle>
-<circle cx="122.8" cy="198.0" r="4.5"><title>Apr 16: 30</title></circle>
-<circle cx="148.2" cy="164.4" r="4.5"><title>Apr 23: 32.5</title></circle>
-<circle cx="173.5" cy="164.4" r="4.5"><title>Apr 28: 32.5</title></circle>
-<circle cx="198.9" cy="130.8" r="4.5"><title>Apr 30: 35</title></circle>
-<circle cx="224.3" cy="164.4" r="4.5"><title>May 5: 32.5</title></circle>
-<circle cx="249.7" cy="130.8" r="4.5"><title>May 7: 35</title></circle>
-<circle cx="275.1" cy="164.4" r="4.5"><title>May 12: 32.5</title></circle>
-<circle cx="300.5" cy="164.4" r="4.5"><title>May 19: 32.5</title></circle>
-<circle cx="325.8" cy="97.2" r="4.5"><title>May 21: 37.5</title></circle>
-<circle cx="351.2" cy="164.4" r="4.5"><title>May 26: 32.5</title></circle>
-<circle cx="376.6" cy="97.2" r="4.5"><title>May 28: 37.5</title></circle>
-<circle cx="402.0" cy="164.4" r="4.5"><title>Jun 2: 32.5</title></circle>
-<circle cx="427.4" cy="63.5" r="4.5"><title>Jun 4: 40</title></circle>
-<circle cx="452.8" cy="164.4" r="4.5"><title>Jun 9: 32.5</title></circle>
-<circle cx="478.2" cy="63.5" r="4.5"><title>Jun 11: 40</title></circle>
-<circle cx="503.5" cy="164.4" r="4.5"><title>Jun 18: 32.5</title></circle>
-<circle cx="528.9" cy="164.4" r="4.5"><title>Jun 23: 32.5</title></circle>
-<circle cx="554.3" cy="63.5" r="4.5"><title>Jun 25: 40</title></circle>
-<circle cx="579.7" cy="164.4" r="4.5"><title>Jul 2: 32.5</title></circle>
-<circle cx="605.1" cy="164.4" r="4.5"><title>Jul 7: 32.5</title></circle>
-<circle cx="630.5" cy="63.5" r="4.5"><title>Jul 9: 40</title></circle>
-<circle cx="655.8" cy="164.4" r="4.5"><title>Jul 14: 32.5</title></circle>
-<circle cx="681.2" cy="63.5" r="4.5"><title>Jul 16: 40</title></circle>
-<circle cx="706.6" cy="164.4" r="4.5"><title>Jul 21: 32.5</title></circle>
-<circle cx="732.0" cy="63.5" r="4.5"><title>Jul 23: 40</title></circle></g>
-  <text x="72" y="336" font-family="Inter, Arial, sans-serif" font-size="12" fill="#59636e" text-anchor="start">Apr 2</text>
+  <text x="62" y="306.0" text-anchor="end">21.803</text>
+<text x="62" y="174.0" text-anchor="end">34.0152</text>
+<text x="62" y="42.0" text-anchor="end">46.2273</text>
+  <polyline points="72.0,63.5 96.4,276.5 120.9,240.4 145.3,213.4 169.8,186.4 194.2,186.4 218.7,159.4 243.1,186.4 267.6,159.4 292.0,186.4 316.4,186.4 340.9,132.3 365.3,186.4 389.8,132.3 414.2,186.4 438.7,105.3 463.1,186.4 487.6,105.3 512.0,186.4 536.4,186.4 560.9,105.3 585.3,186.4 609.8,186.4 634.2,105.3 658.7,186.4 683.1,105.3 707.6,186.4 732.0,105.3" fill="none" stroke="#0b57d0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#0b57d0"><circle cx="72.0" cy="63.5" r="4.5"><title>Jun 19: 43.8636</title></circle>
+<circle cx="96.4" cy="276.5" r="4.5"><title>Apr 2: 24.1667</title></circle>
+<circle cx="120.9" cy="240.4" r="4.5"><title>Apr 9: 27.5</title></circle>
+<circle cx="145.3" cy="213.4" r="4.5"><title>Apr 16: 30</title></circle>
+<circle cx="169.8" cy="186.4" r="4.5"><title>Apr 23: 32.5</title></circle>
+<circle cx="194.2" cy="186.4" r="4.5"><title>Apr 28: 32.5</title></circle>
+<circle cx="218.7" cy="159.4" r="4.5"><title>Apr 30: 35</title></circle>
+<circle cx="243.1" cy="186.4" r="4.5"><title>May 5: 32.5</title></circle>
+<circle cx="267.6" cy="159.4" r="4.5"><title>May 7: 35</title></circle>
+<circle cx="292.0" cy="186.4" r="4.5"><title>May 12: 32.5</title></circle>
+<circle cx="316.4" cy="186.4" r="4.5"><title>May 19: 32.5</title></circle>
+<circle cx="340.9" cy="132.3" r="4.5"><title>May 21: 37.5</title></circle>
+<circle cx="365.3" cy="186.4" r="4.5"><title>May 26: 32.5</title></circle>
+<circle cx="389.8" cy="132.3" r="4.5"><title>May 28: 37.5</title></circle>
+<circle cx="414.2" cy="186.4" r="4.5"><title>Jun 2: 32.5</title></circle>
+<circle cx="438.7" cy="105.3" r="4.5"><title>Jun 4: 40</title></circle>
+<circle cx="463.1" cy="186.4" r="4.5"><title>Jun 9: 32.5</title></circle>
+<circle cx="487.6" cy="105.3" r="4.5"><title>Jun 11: 40</title></circle>
+<circle cx="512.0" cy="186.4" r="4.5"><title>Jun 18: 32.5</title></circle>
+<circle cx="536.4" cy="186.4" r="4.5"><title>Jun 23: 32.5</title></circle>
+<circle cx="560.9" cy="105.3" r="4.5"><title>Jun 25: 40</title></circle>
+<circle cx="585.3" cy="186.4" r="4.5"><title>Jul 2: 32.5</title></circle>
+<circle cx="609.8" cy="186.4" r="4.5"><title>Jul 7: 32.5</title></circle>
+<circle cx="634.2" cy="105.3" r="4.5"><title>Jul 9: 40</title></circle>
+<circle cx="658.7" cy="186.4" r="4.5"><title>Jul 14: 32.5</title></circle>
+<circle cx="683.1" cy="105.3" r="4.5"><title>Jul 16: 40</title></circle>
+<circle cx="707.6" cy="186.4" r="4.5"><title>Jul 21: 32.5</title></circle>
+<circle cx="732.0" cy="105.3" r="4.5"><title>Jul 23: 40</title></circle></g>
+  <text x="72" y="336" font-family="Inter, Arial, sans-serif" font-size="12" fill="#59636e" text-anchor="start">Jun 19</text>
   <text x="732" y="336" font-family="Inter, Arial, sans-serif" font-size="12" fill="#59636e" text-anchor="end">Jul 23</text>
 </svg>
