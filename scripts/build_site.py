@@ -313,6 +313,10 @@ INLINE_LINKS = [
         "episode 45",
         "https://trashtalesnewsletter.github.io/trash_tales_newsletter/posts/episode-45.html",
     ),
+    (
+        "here’s a link to it in all its glory",
+        "https://drive.google.com/file/d/1YQlvEzO1gomurv-HZHkvPI8nQ4g-V3kd/view?usp=drivesdk",
+    ),
 ]
 
 
