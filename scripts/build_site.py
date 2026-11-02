@@ -239,6 +239,17 @@ WORKOUT_PROGRESS_CONFIG = {
             "represents reps or logged time. Bodyweight sets appear on the BW baseline."
         ),
     },
+    "99": {
+        "dates": {dt.date(2026, 10, 27)},
+        "metric": "average_load",
+        "exercise_scope": "through_cutoff",
+        "chart_type": "dotplot",
+        "description": (
+            "The dot plots below show every exercise logged through 10/27/2026; later dates "
+            "are excluded. The x-axis is time, the y-axis is logged weight, and dot size "
+            "represents reps or logged time. Bodyweight sets appear on the BW baseline."
+        ),
+    },
 }
 WORKOUT_XLSX_NS = {
     "main": "http://schemas.openxmlformats.org/spreadsheetml/2006/main",
@@ -328,6 +339,11 @@ INLINE_LINKS = [
         "here’s a link to it in all its glory",
         "https://drive.google.com/file/d/1YQlvEzO1gomurv-HZHkvPI8nQ4g-V3kd/view?usp=drivesdk",
     ),
+]
+
+BARE_LINKS = [
+    "https://www.youtube.com/watch?v=aMX-fllnmM8",
+    "https://gformsapp.com/f2/ep6uz5SNifvtmt0TxHQk_",
 ]
 
 
@@ -1087,7 +1103,8 @@ def render_inline_html(
     rendered: List[str] = []
 
     while remaining:
-        earliest_match = None
+        earliest_start = None
+        earliest_end = None
         earliest_phrase = None
         earliest_url = None
 
@@ -1096,21 +1113,32 @@ def render_inline_html(
             match = pattern.search(remaining)
             if not match:
                 continue
-            if earliest_match is None or match.start() < earliest_match.start():
-                earliest_match = match
+            if earliest_start is None or match.start() < earliest_start:
+                earliest_start = match.start()
+                earliest_end = match.end()
                 earliest_phrase = phrase
                 earliest_url = url
 
-        if earliest_match is None:
+        for bare_url in BARE_LINKS:
+            bare_url_match = re.search(re.escape(bare_url), remaining)
+            if bare_url_match and (
+                earliest_start is None or bare_url_match.start() < earliest_start
+            ):
+                earliest_start = bare_url_match.start()
+                earliest_end = bare_url_match.end()
+                earliest_phrase = bare_url
+                earliest_url = bare_url
+
+        if earliest_start is None or earliest_end is None:
             rendered.append(inject_character_tooltips(remaining, variant_lookup, variant_pattern))
             break
 
-        before = remaining[:earliest_match.start()]
+        before = remaining[:earliest_start]
         rendered.append(inject_character_tooltips(before, variant_lookup, variant_pattern))
         rendered.append(
             f'<a href="{html.escape(earliest_url)}" target="_blank" rel="noreferrer">{html.escape(earliest_phrase)}</a>'
         )
-        remaining = remaining[earliest_match.end():]
+        remaining = remaining[earliest_end:]
         if remaining.startswith("  "):
             remaining = " " + remaining.lstrip()
 
