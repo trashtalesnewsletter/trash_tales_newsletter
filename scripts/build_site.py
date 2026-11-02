@@ -343,7 +343,7 @@ INLINE_LINKS = [
 
 BARE_LINKS = [
     "https://www.youtube.com/watch?v=aMX-fllnmM8",
-    "https://gformsapp.com/f2/ep6uz5SNifvtmt0TxHQk_",
+    "https://docs.google.com/forms/d/e/1FAIpQLSfny9xJFUtUiKmL4h8DQ8VQKB2Byatjyq8tV1l8-2s4Sv7HOQ/viewform?usp=preview",
 ]
 
 
